@@ -1,4 +1,5 @@
 package kryo;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -10,7 +11,6 @@ import java.util.Map;
 
 public class MyJavaSer
 {
-
 	public static void main( String[] args ) throws IOException, ClassNotFoundException
 	{
 		long start = System.currentTimeMillis();
